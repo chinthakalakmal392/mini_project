@@ -1,0 +1,59 @@
+/* Page style */
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+}
+
+/* Table style */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/* Table header */
+th {
+    background-color: #3F3157;
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* Table data */
+td {
+    padding: 8px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+/* Hover effect */
+tr:hover {
+    background-color: lightblue;
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
+    table, tr, th, td {
+        display: block;
+    }
+
+    tr {
+        margin-bottom: 15px;
+        border: 2px solid black;
+    }
+
+    td {
+        text-align: left;
+        padding: 10px;
+    }
+
+    th {
+        display: none;
+    }
+}
